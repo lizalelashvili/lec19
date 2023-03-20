@@ -1,0 +1,32 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+  }
+
+  body{
+    background-image: url(background.jpg);
+  }
+
+  .user {
+    display: block;
+    margin: 50px auto;
+    width: 150px;
+  }
+
+  .user input {
+    outline: none;
+  }
+
+  .user ::placeholder {
+    font-size: 10px;
+  }
+  
+  .user button {
+    border: 2px;
+    color: #0b8c1a;  
+    background-color: #ffffff; 
+    width: 90px;
+    font-weight: bold;
+    cursor: pointer;
+  }
